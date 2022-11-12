@@ -1,0 +1,535 @@
+.main-navbar {
+  width: 100%;
+  height: 10%;
+  background-color: lightsalmon;
+  position: fixed;
+  top: 0;
+  outline-style: solid;
+  outline-width: 5px;
+  outline-color: white;
+}
+
+.navbar {
+  width: 100%;
+  list-style-type: none;
+  margin: 0 25%;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+  margin: auto 40px;
+}
+
+.navbar li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  font-size: 2.5em;
+  font-family: 'Mirza', cursive, arial;
+}
+
+.navbar li a:hover {
+  color: navy;
+} 
+
+.on-page {
+  text-decoration: underline;
+}
+
+.page-1 {
+  background-color: navy;
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+.first {
+  width: 800px;
+  margin: 9% 22% 0% 22%;
+  text-align: center;
+}
+
+.first h1 {
+  color: lightsalmon;
+  font-family: 'Mirza', cursive, arial;
+  font-size: 6em;
+  margin-bottom: -60px;
+}
+
+.first h3 {
+  color: lightsalmon;
+  font-size: 2.3em;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+.wrapper h2 {
+  font-size: 2.5em;
+  font-family: 'Arima Madurai', cursive, arial;
+  color: white;
+}
+
+.wrapper h1 {
+  color: lightsalmon;
+  font-family: 'Mirza', cursive, arial;
+  font-size: 6em;
+  margin-bottom: -60px;
+}
+
+.resume-left-1 {
+  float: left;
+  width: 500px;
+  height: 300px;
+  margin: 10px auto;
+  background-color: lightsalmon;
+  padding: 20px 20px;
+  color: navy;
+}
+
+.resume-left-1 h2 {
+  color: white;
+  font-family: 'Mirza', cursive, arial;
+  font-size: 4em;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.resume-left-1 ul {
+  width: 100%;
+  margin: -7% auto;
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 2.5em;
+  font-size: 1.4em;
+  color: white;
+}
+
+.resume-left-2 {
+  float: left;
+  width: 500px;
+  height: 410px;
+  margin: 10px auto;
+  background-color: lightsalmon;
+  padding: 20px 20px;
+}
+
+.resume-right {
+  float: left;
+  width: 500px;
+  margin: 10px 10px;
+  height: 300px;
+  background-color: lightsalmon;
+  padding: 20px 20px;
+  color: white;
+  font-family: "arial", Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.resume-right h2 {
+  color: white;
+  font-family: 'Mirza', cursive, arial;
+  font-size: 4em;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.resume-right li{
+  font-family: "arial", Helvetica, sans-serif;
+  font-size: 0.8em;
+}
+.resume-left-2 ul {
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 2.5em;
+  margin: -7% auto;
+  color: white;
+  font-size: 1.4em;
+  font-family: "arial", Helvetica, sans-serif;
+}
+
+.resume-left-2 h2 {
+  color: white;
+  font-family: 'Mirza', cursive, arial;
+  font-size: 4em;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.resume-right-2 {
+  float: left;
+  width: 500px;
+  height: 410px;
+  margin: 10px 10px;
+  background-color: lightsalmon;
+  padding: 20px 20px;
+  font-family: "arial", Helvetica, sans-serif;
+}
+
+.resume-right-2 h2 {
+  color: white;
+  font-family: 'Mirza', cursive, arial;
+  font-size: 4em;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.resume-right-2 ul {
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 2.5em;
+  margin: -6% auto;
+  color: white;
+  font-size: 1.4em;
+}
+
+ .resume-right ul {
+   width: 100%;
+  height: 100%;
+  margin: -8% auto;
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 2em;
+  font-size: 1.4em;
+  color: white;
+}
+
+.resume-right p {
+  width: 100%;
+  height: 100%;
+  margin: -50% auto;
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 2.5em;
+  font-size: 1.4em;
+  color: white;
+}
+.footer {
+  clear: left;
+}
+
+.page-2 {
+  background-color: navy;
+  width: 100%;
+  margin: auto auto;
+  padding-left: 0;
+}
+
+.intro-text {
+  float: left;
+  margin-left: 110px;
+  margin-right: 85px;
+  margin-top: 100px;
+  width: 34.7%;
+  text-align: center;
+  color: lightsalmon;
+}
+
+.intro-text h1 {
+  font-size: 6em;
+  font-family: 'Mirza', cursive, arial;
+  margin-top: 15px;
+  margin-bottom: -5px;
+  margin-left: 20px;
+}
+
+.intro-text h2 {
+  font-family: 'Mirza', cursive, arial;
+  font-size: 2.5em;
+  margin-top: -26px;
+  margin-bottom: 55px;
+  margin-left: 20px;
+}
+
+.intro-2 {
+  width: 43.5%;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 100px;
+  text-align: right;
+  color: white;
+  background-color: lightsalmon;
+  font-family: 'Mirza', cursive, arial;
+  font-weight: bold;
+}
+
+.intro-2 p {
+  font-family: 'Mirza', cursive, arial;
+  font-size: 1.5em;
+  padding-bottom: 5px;
+  padding: 20px 20px 20px 20px;
+  margin: 0 0 0 0;
+  color: navy;
+}
+
+.footer {
+  clear: left;
+}
+
+.first-cont {
+  float: left;
+  background-color: lightsalmon;
+  width: 40%;
+  margin: -3.4% auto auto 7%;
+  text-align: center; 
+  color: white;
+}
+
+.first-cont h2 {
+  margin-top: 23px;
+  margin-bottom: -25px;
+  font-family: 'Mirza', cursive, arial;
+  font-size: 3em;
+  color: navy;
+}
+
+.first-cont p {
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding: 0px 10px;
+  margin: 20px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.second-cont {
+  float: right;
+  width: 15%;
+  height: auto;
+  margin: auto 38% auto auto;
+}
+
+.third-cont {
+  float: left;
+  width: 87%;
+  background-color: lightsalmon;
+  margin-top: 50px;
+  margin-left: 6.5%;
+  margin-right: 6.5%;
+  text-align: center;
+  color: white;
+}
+
+.third-cont h2 {
+  color: navy;
+  font-family: 'Mirza', cursive, arial;
+  font-size: 3em;
+}
+
+.third-cont p {
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  padding: 0px 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  margin-top: -45px;
+  font-weight: bold;
+}
+
+.ending {
+  margin-top: 30px;
+  width: 95%;
+  background-color: navy;
+  float: left;
+}
+
+.page-3 {
+  background-color: navy;
+  width: 100%;
+  margin: auto auto;
+}
+
+.first-col {
+  float: left;
+  margin: 5% 5% auto 5%;
+  width: 90%;
+  text-align: center;
+}
+
+.first-col h1 {
+  font-family: 'Mirza', cursive, arial;
+  font-size: 4.5em;
+  color: lightsalmon;
+}
+
+.first-col p {
+  font-family: 'Mirza', cursive, arial;
+  width: 50%;
+  font-size: 2.2em;
+  margin: -60px auto 40px auto;
+  color: lightsalmon;
+}
+
+.left-col-1 {
+  float: left;
+  width: 45%;
+  height: auto;
+  margin: auto auto auto 5%;
+  text-align: center;
+}
+
+.right-col-1 {
+  float: left;
+  width: 45%;
+  margin: auto 5% auto auto;
+  text-align: center;
+  background-color: lightsalmon;
+}
+
+.right-col-1 h2 {
+  color: navy;
+  font-family: 'Mirza', cursive, arial;
+  font-size: 2.6em;
+  margin-bottom: -30px;
+}
+
+.right-col-1 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  color: white;
+  margin: 20px 40px 20px 40px;
+  line-height: 30px;
+}
+
+.left-col-2 {
+  background-color: lightsalmon;
+  float: left;
+  width: 45%;
+  height: auto;
+  margin: auto auto auto 5%;
+  text-align: center;
+}
+
+.left-col-2 h2 {
+  color: navy;
+  font-family: 'Mirza', cursive, arial;
+  font-size: 3em;
+  margin-bottom: -25px;
+}
+
+.left-col-2 p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  margin: 20px 40px 20px 40px;
+  line-height: 30px;
+}
+
+.right-col-2 {
+  float: left;
+  width: 45%;
+  height: auto;
+  margin: auto auto auto 5%;
+  text-align: center;
+}
+
+.second-col {
+  float: left;
+  margin: auto auto;
+  width: 90%;
+  text-align: center;
+  margin: auto 5% auto 5%;
+  background-color: lightsalmon;
+}
+
+.second-col h2 {
+  color: navy;
+  font-family: 'Mirza', cursive, arial;
+  font-size: 3em;
+  margin-bottom: -25px;
+  margin-top: 15px;
+}
+
+.second-col h3 {
+  color: navy;
+  font-family: 'Mirza', cursive, arial;
+  font-size: 3em;
+  margin: -37px auto 5px auto;
+  text-decoration: underline;
+}
+.second-col p {
+  font-family: 'arial', helvetica, sans-serif;
+  font-size: 2em;
+  margin: 2% 5% 5% 5%;
+  color: white;
+}
+
+.bp-1 {
+  float: left;
+  width: 40%;
+  margin: 3% 28% auto 28%;
+  background-color: lightsalmon;
+  text-align: center;
+  padding: 1% 1% 1% 1%;
+  font-family: 'arial', helvetica, sans-serif;
+}
+
+.bp-2 {
+  float: left;
+  height: 650px;
+  width: 35.5%;
+  margin: 2% 5% 3% 5%;
+  background-color: lightsalmon;
+  text-align: center;
+  padding: 2% 2% 4% 2%;
+  font-family: 'arial', helvetica, sans-serif;
+}
+
+.bp-3 {
+  float: left;
+  height: 650px;
+  width: 35%;
+  margin: 2% 5% 3% 5%;
+  background-color: lightsalmon;
+  text-align: center;
+  padding: 2% 2% 2% 2%;
+  font-family: 'arial', helvetica, sans-serif;
+}
+.modified-ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 2.5em;
+  font-size: 1.4em;
+  color: white;
+  background-color: transparent;
+}
+
+.third-col {
+  float: left;
+  margin: 2% auto auto auto;
+  width: 90%;
+  text-align: center;
+  margin: auto 5% auto 5%;
+  background-color: lightsalmon;
+}
+
+.third-col p {
+  font-family: 'arial', helvetica, sans-serif;
+  color: white;
+  font-size: 1.4em;
+  text-decoration: underline;
+}
+
+.third-col h3 {
+  font-family: 'Mirza', cursive, arial;
+  color: navy;
+  font-size: 2em;
+  padding: 2px 100px 2px 100px;
+  margin-bottom: -8px;
+}
+
