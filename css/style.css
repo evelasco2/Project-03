@@ -536,18 +536,18 @@
 @media screen and (min-width: 600px) {
   .main-navbar {
   left: 20px;
-}
+  }
+  
+  .navbar {
+    margin: 0 15%;
+  }
 
-.navbar {
-  margin: 0 15%;
-}
+  .navbar li {
+    margin: auto 20px;
+  }
 
-.navbar li {
-  margin: auto 20px;
-}
-
-.navbar li a {
-  padding: 20px 20px 20px 5px;
-}
+  .navbar li a {
+    padding: 20px 20px 20px 5px;
+  }
 
 }
