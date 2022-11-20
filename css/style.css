@@ -533,7 +533,7 @@
   margin-bottom: -8px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
   .main-navbar {
   left: 0px;
   }
