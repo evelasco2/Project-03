@@ -533,11 +533,11 @@
   margin-bottom: -8px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   .main-navbar {
   left: 20px;
   }
-  
+
   .navbar {
     margin: 0 15%;
   }
@@ -548,6 +548,7 @@
 
   .navbar li a {
     padding: 20px 20px 20px 5px;
+    font-size: 1em;
   }
 
 }
