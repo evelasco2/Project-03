@@ -1,13 +1,20 @@
+.slideshow img {
+  width: 40em;
+  height: auto;
+  display: block;
+  margin: auto auto;
+  
+}
+
 #map {
-  width: auto;
-  height: 50%;
+  position: absolute;
+  width: 50%;
+  height: auto;
   margin: auto auto;
   background-color: lightsalmon;
   outline-color: lightsalmon;
   outline-width: 10px;
-  top: 100px;
-  left: auto;
-  right: auto;
+  top: 150px;
 }
 
 .main-navbar {
