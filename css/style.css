@@ -1,5 +1,7 @@
 .slideshow {
   background-color: navy;
+  width: 50%;
+  margin: auto auto;
 }
 
 .slideshow img {
@@ -19,7 +21,7 @@
   color: white;
   text-align: center;
   font-size: 3em;
-  top: 200px;
+  top: 300px;
   background-color: navy;
 }
 
