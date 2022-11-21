@@ -622,7 +622,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .navbar {
     margin: 0 2%;
   }
@@ -651,7 +651,7 @@
   .resume-left-1 {
     width: 250px;
     height: 380px;
-    margin-left: -165px;
+    margin-left: -50px;
   }
 
   .resume-left-1 h2 {
