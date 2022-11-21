@@ -11,7 +11,7 @@
   display: block;
   margin: auto auto;
   background-color: navy;
-  top: 200px;
+  top: 100px;
 }
 
 .boxslider {
@@ -22,7 +22,7 @@
   color: white;
   text-align: center;
   font-size: 3em;
-  top: 300px;
+  top: 400px;
   background-color: navy;
 }
 
