@@ -3,20 +3,20 @@
   height: auto;
   display: block;
   margin: auto auto;
-  background-color: lightsalmon;
+  background-color: navy;
   top: 200px;
 }
 
 .boxslider {
-  background-color: transparent;
+  background-color: navy;
 }
 
 .extras {
   color: white;
   text-align: center;
   font-size: 3em;
-  top: 120px;
-  background-color: lightsalmon;
+  top: 200px;
+  background-color: navy;
 }
 
 #map {
