@@ -3,7 +3,16 @@
   height: auto;
   display: block;
   margin: auto auto;
-  
+  background-color: lightsalmon;
+  top: 200px;
+}
+
+.extras {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  top: 120px;
+  background-color: lightsalmon;
 }
 
 #map {
