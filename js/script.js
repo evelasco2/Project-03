@@ -1,7 +1,68 @@
 function initMap() {
-  var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: -34.397, lng: 150.644},
-    zoom: 8
+  var m = document.getElementById('map')
+  var location = new google.maps.LatLng(41.8827, 87.6233);
+  var mapOptions = {
+    center: location,
+    zoom: 10,
+    mapTypeId: "satellite",
+  }
+};
+
+  var line = {
+
+    const flightPlanCoordinates = [
+      { lat: 41.8827, lng: 87.6233 },
+      { lat: 41.8730, lng: 87.6279 },
+    ];
+    const flightPath = new google.maps.Polyline({
+      path: flightPlanCoordinates,
+      geodesic: true,
+      strokeColor: "#FF0000",
+      strokeOpacity: 1.0,
+      strokeWeight: 2,
+    });
+
+  flightPath.setMap(map);
+}
+
+declare global {
+  interface Window {
+    initMap: () => void;
+  }
+}
+window.initMap = initMap;
+export {};
+
+var lineSymbol = {
+  path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
+};
+
+// Create the polyline and add the symbol via the 'icons' property.
+var line = new google.maps.Polyline({
+  path: [{lat: 41.8827, lng: 87.6233}, {lat: 41.8730, lng: 87.6279}],
+  icons: [{
+    icon: lineSymbol,
+    offset: '100%'
+  }],
+  map: map
+});
+
+  const infowindow = new google.maps.InfoWindow({
+    ariaLabel: "The Bean to Jones College Prep",
   });
+  const marker = new google.maps.Marker({
+    position: location,
+    map,
+    title: "The Bean",
+  });
+
+  marker.addListener("click", () => {
+    infowindow.open({
+      anchor: marker,
+      map,
+    });
+  });
+
+var myMap = new google.maps.Map(m, mapOptions);
 
 google.maps.event.addDomListener(window, 'load', init);
