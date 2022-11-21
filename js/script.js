@@ -1,5 +1,5 @@
 function initMap() {
-  var m = document.getElementById('map')
+  var map = document.getElementById('map')
   var location = new google.maps.LatLng(41.8827, 87.6233);
   var mapOptions = {
     center: location,
@@ -9,12 +9,11 @@ function initMap() {
 };
 
   var line = {
-
-    const flightPlanCoordinates = [
+    var flightPlanCoordinates = {
       { lat: 41.8827, lng: 87.6233 },
       { lat: 41.8730, lng: 87.6279 },
-    ];
-    const flightPath = new google.maps.Polyline({
+    };
+    var flightPath = new google.maps.Polyline({
       path: flightPlanCoordinates,
       geodesic: true,
       strokeColor: "#FF0000",
@@ -47,10 +46,10 @@ var line = new google.maps.Polyline({
   map: map
 });
 
-  const infowindow = new google.maps.InfoWindow({
-    ariaLabel: "The Bean to Jones College Prep",
+  var infowindow = new google.maps.InfoWindow({
+    content: "The Bean to Jones College Prep",
   });
-  const marker = new google.maps.Marker({
+  var marker = new google.maps.Marker({
     position: location,
     map,
     title: "The Bean",
