@@ -1,3 +1,7 @@
+.slideshow {
+  background-color: navy;
+}
+
 .slideshow img {
   width: 40em;
   height: auto;
