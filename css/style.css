@@ -2,6 +2,7 @@
   background-color: navy;
   width: 50%;
   margin: auto auto;
+  position: relative;
 }
 
 .slideshow img {
