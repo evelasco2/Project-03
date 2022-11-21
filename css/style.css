@@ -7,6 +7,10 @@
   top: 200px;
 }
 
+.boxslider {
+  background-color: transparent;
+}
+
 .extras {
   color: white;
   text-align: center;
