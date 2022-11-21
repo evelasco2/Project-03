@@ -550,4 +550,72 @@
     padding: 20px 15px 20px 15px;
   }
 
+  .first {
+    width: 450px;
+  }
+
+  .first h1 {
+    font-size: 4.36em;
+  }
+
+  .first h3 {
+    font-size: 2em;
+  }
+  .resume-left-1 {
+    width: 325px;
+    height: 360px;
+  }
+
+  .resume-left-1 h2 {
+    font-size: 3em;
+  }
+
+  .resume-left-1 ul {
+    font-size: 1.2em;
+  }
+
+  .resume-left-2 {
+    width: 325px;
+  }
+
+  .resume-left-2 ul {
+    line-height: 2.3em;
+    font-size: 1.4em;
+  }
+
+  .resume-left-2 h2 {
+    font-size: 3.2em;
+    margin-bottom: 30px;
+  }
+
+  .resume-right {
+    width: 325px;
+    height: 360px;
+    font-size: 0.85em;
+  }
+
+  .resume-right h2 {
+    font-size: 3.2em;
+  }
+
+  .resume-right li {
+    padding: 10px;
+    font-size: 1em;
+    line-height: 30px;
+  }
+  .resume-right-2 {
+    width: 325px;
+    height: 410px;
+  }
+
+  .resume-right-2 h2 {
+    font-size: 2.8em;
+    margin-bottom: 15px;
+
+  }
+
+  .resume-right-2 ul {
+    line-height: 2em;
+  }
+
 }
