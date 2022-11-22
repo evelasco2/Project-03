@@ -579,7 +579,7 @@
   margin-bottom: -8px;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1100px) {
   .main-navbar {
   left: 0px;
   height: 5%;
@@ -668,13 +668,13 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
   .navbar {
     margin: 0 0%;
   }
 
   .navbar li {
-    margin: auto 10px;
+    margin: auto 5px;
   }
 
   .navbar li a {
