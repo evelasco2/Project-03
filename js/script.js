@@ -7,7 +7,7 @@ function initMap() {
 
   var marker = new google.maps.Marker({
     position: { lat: 41.8827, lng: -87.6233},
-    label: "The Bean"
+    label: "The Bean",
     map: map,
   });
 
