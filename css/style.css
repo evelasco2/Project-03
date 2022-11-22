@@ -18,10 +18,12 @@
 .boxslider {
   background-color: navy;
   outline-color: navy;
+  padding: auto auto;
 }
 
 .boxslider li {
   background-color: navy;
+  padding: auto auto;
 }
 
 .extras {
