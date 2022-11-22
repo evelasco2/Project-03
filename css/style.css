@@ -705,7 +705,7 @@
   .resume-left-2 {
     width: 250px;
     height: 380px;
-    margin-left: -165px;
+    margin-left: 0px;
   }
 
   .resume-left-2 h2 {
