@@ -17,13 +17,11 @@
 
 .boxslider {
   background-color: navy;
-  outline-color: navy;
-  padding: auto auto;
+  outline-color: navy
 }
 
 .boxslider li {
   background-color: navy;
-  padding: auto auto;
 }
 
 .extras {
