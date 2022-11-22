@@ -682,11 +682,11 @@
 
   .navbar {
     margin: 0 5%;
-    /* changed this from 10% to 5% */
   }
 
   .navbar li {
-    margin: auto 30px;
+    margin: auto 10px;
+    /* changed this from 30px to 10px*/
   }
 
   .navbar li a {
