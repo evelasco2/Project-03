@@ -35,11 +35,11 @@
 #map{
   position: absolute;
   width: 60%;
-  height: calc(70vh);
+  height: auto; /*changed height */
   right: 20%;
-  top: 14%;
-  border: solid white 5px;
-  border-radius: 10px;
+  top: 20%;
+  border: lightsalmon 5px;
+  /* border-radius: 10px; */
 }
 
 .main-navbar {
