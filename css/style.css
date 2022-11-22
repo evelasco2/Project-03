@@ -594,7 +594,6 @@
   .navbar li a {
     padding: 10px 15px 20px 15px;
     font-size: 2em;
-
   }
 
   .first {
@@ -666,9 +665,10 @@
   }
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 890px) {
   .navbar {
     margin: 0 -2%;
+    height: 3%;
   }
 
   .navbar li {
@@ -677,7 +677,7 @@
 
   .navbar li a {
     padding: 10px 10px 20px 10px;
-    /*removed fontsize here */
+    font-size: 1em;
   }
 
   .first {
