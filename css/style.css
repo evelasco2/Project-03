@@ -685,13 +685,14 @@
   }
 
   .navbar li {
-    margin: auto 2px;
+    margin: auto 0px;
     /* changed this from 30px to 2px*/
   }
 
   .navbar li a {
     padding: 10px 15px 20px 15px;
-    font-size: 2em;
+    font-size: 1.5em;
+    /* changed fontsize from 2 to 1.5 */
   }
 
   .first {
