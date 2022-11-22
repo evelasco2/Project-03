@@ -666,6 +666,7 @@
 }
 
 @media screen and (max-width: 900px) {
+  /*
   .navbar {
     margin: 0 10%;
   }
@@ -676,6 +677,24 @@
 
   .navbar li a {
     padding: 10px 15px 20px 15px;
+  }
+  */
+  .main-navbar {
+  left: 0px;
+  height: 5%;
+  }
+
+  .navbar {
+    margin: 0 10%;
+  }
+
+  .navbar li {
+    margin: auto 30px;
+  }
+
+  .navbar li a {
+    padding: 10px 15px 20px 15px;
+    font-size: 2em;
   }
 
   .first {
