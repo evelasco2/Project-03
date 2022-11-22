@@ -667,8 +667,7 @@
 
 @media screen and (max-width: 900px) {
   .navbar {
-    margin: 0px 0px;
-    height: 5%;
+    margin: 0px 2%;
   }
 
   .navbar li {
