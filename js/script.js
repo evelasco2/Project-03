@@ -33,7 +33,7 @@ function initMap() {
     map: map
   });
 
-  chicago.setMap(map);
+  /*chicago.setMap(map); */
 }
 
 window.initMap = initMap;
