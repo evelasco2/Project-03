@@ -666,13 +666,13 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 870px) {
   .navbar {
-    margin: 0 0%;
+    margin: 0 -2%;
   }
 
   .navbar li {
-    margin: auto 2px;
+    margin: auto 1px;
   }
 
   .navbar li a {
