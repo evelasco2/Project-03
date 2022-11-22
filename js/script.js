@@ -18,7 +18,7 @@ function initMap() {
     { lat: 41.8730, lng: -87.6279 },
   ];
   // Construct the polygon.
-  var bermudaTriangle = new google.maps.Polygon({
+  var Chicago = new google.maps.Polygon({
     paths: triangleCoords,
     strokeColor: "#FF0000",
     strokeOpacity: 0.8,
@@ -27,6 +27,6 @@ function initMap() {
     fillOpacity: 0.3,
     map: map
   });
-  bermudaTriangle.setMap(map);
+  Chicago.setMap(map);
 }
 window.initMap = initMap;
