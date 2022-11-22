@@ -38,10 +38,10 @@
   position: absolute;
   width: 60%;
   height: auto; /*changed height */
-  right: 20%;
+  right: 15%;
   top: 20%;
   border-radius: 15px;
-  border: white 5px;
+  border: solid white 5px;
 }
 
 .main-navbar {
