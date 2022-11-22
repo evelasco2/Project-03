@@ -1,67 +1,36 @@
 function initMap() {
-  var map = document.getElementById('map')
-  var location = new google.maps.LatLng(41.8827, 87.6233);
-  var mapOptions = {
-    center: location,
+  var map = new google.maps.Map(document.getElementById("map"), {
     zoom: 10,
-    mapTypeId: "satellite",
-  }
-};
-
-  var line = {
-    var flightPlanCoordinates = {
-      { lat: 41.8827, lng: 87.6233 },
-      { lat: 41.8730, lng: 87.6279 },
-    };
-    var flightPath = new google.maps.Polyline({
-      path: flightPlanCoordinates,
-      geodesic: true,
-      strokeColor: "#FF0000",
-      strokeOpacity: 1.0,
-      strokeWeight: 2,
-    });
-
-  flightPath.setMap(map);
-}
-
-declare global {
-  interface Window {
-    initMap: () => void;
-  }
-}
-window.initMap = initMap;
-export {};
-
-var lineSymbol = {
-  path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
-};
-
-// Create the polyline and add the symbol via the 'icons' property.
-var line = new google.maps.Polyline({
-  path: [{lat: 41.8827, lng: 87.6233}, {lat: 41.8730, lng: 87.6279}],
-  icons: [{
-    icon: lineSymbol,
-    offset: '100%'
-  }],
-  map: map
-});
-
-  var infowindow = new google.maps.InfoWindow({
-    content: "The Bean to Jones College Prep",
+    center: { lat: 41.8730, lng: -87.6279},
   });
   var marker = new google.maps.Marker({
-    position: location,
-    map,
-    title: "The Bean",
+    position: { lat: 41.8827, lng: -87.6233},
+    map: map,
   });
 
-  marker.addListener("click", () => {
-    infowindow.open({
-      anchor: marker,
-      map,
-    });
+  var infowindow = new google.maps.InfoWindow({
+    content:"These locations consist of my school, Jones College Prep, the Cloud Gate, more famously known as The Bean, and the Willis Tower, which are all located in Chicago; I frequent these areas a lot."
+  });
+  infowindow.open(map, marker);
+
+  const triangleCoords = [
+    { lat: 41.8730, lng: -87.6279 },
+    { lat: 41.8827, lng: -87.6233 },
+    { lat: 41.8789, lng: -87.6359 },
+    { lat: 41.8730, lng: -87.6279 },
+  ];
+  // Construct the polygon.
+  const bermudaTriangle = new google.maps.Polygon({
+    paths: triangleCoords,
+    strokeColor: "#FF0000",
+    strokeOpacity: 0.8,
+    strokeWeight: 2.5,
+    fillColor: "#FF0000",
+    fillOpacity: 0.3,
   });
 
-var myMap = new google.maps.Map(m, mapOptions);
+  bermudaTriangle.setMap(map);
+  
+}
 
-google.maps.event.addDomListener(window, 'load', init);
+window.initMap = initMap;
