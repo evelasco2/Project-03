@@ -685,8 +685,8 @@
   }
 
   .navbar li {
-    margin: auto 10px;
-    /* changed this from 30px to 10px*/
+    margin: auto 2px;
+    /* changed this from 30px to 2px*/
   }
 
   .navbar li a {
