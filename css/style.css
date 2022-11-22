@@ -34,14 +34,14 @@
   background-color: navy;
 }
 
-#map{
+#map {
   position: absolute;
   width: 60%;
-  height: auto; /*changed height */
-  right: 15%;
-  top: 20%;
-  border-radius: 15px;
+  height: auto;
+  right: 20%;
+  top: 14%;
   border: solid white 5px;
+  border-radius: 10px;
 }
 
 .main-navbar {
