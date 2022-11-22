@@ -679,13 +679,10 @@
     padding: 10px 15px 20px 15px;
   }
   */
-  .main-navbar {
-  left: 0px;
-  height: 5%;
-  }
 
   .navbar {
-    margin: 0 10%;
+    margin: 0 5%;
+    /* changed this from 10% to 5% */
   }
 
   .navbar li {
