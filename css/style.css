@@ -667,16 +667,15 @@
 
 @media screen and (max-width: 900px) {
   .navbar {
-    margin: 0px 2%;
+    margin: 0 10%;
   }
 
   .navbar li {
-    margin: 0px 2px;
-    padding: 0px;
+    margin: auto 10px;
   }
 
   .navbar li a {
-    padding: 10px 10px 20px 10px;
+    padding: 10px 15px 20px 15px;
   }
 
   .first {
