@@ -30,7 +30,7 @@
   color: lightsalmon;
   text-align: center;
   font-size: 3em;
-  margin-top: 70px;
+  margin-top: 100px;
   background-color: navy;
 }
 
@@ -40,8 +40,8 @@
   height: auto; /*changed height */
   right: 20%;
   top: 20%;
+  border-radius: 15px;
   border: lightsalmon 5px;
-  /* border-radius: 10px; */
 }
 
 .main-navbar {
