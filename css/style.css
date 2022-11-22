@@ -37,10 +37,10 @@
 #map {
   position: absolute;
   width: 60%;
-  height: auto;
+  height: 40%;
   right: 20%;
   top: 14%;
-  border: solid white 5px;
+  border: solid white 10px;
   border-radius: 10px;
 }
 
