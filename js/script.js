@@ -1,23 +1,29 @@
 function initMap() {
-  var map = new google.maps.Map(document.getElementById("map"), {
+  var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 10,
     center: { lat: 41.8730, lng: -87.6279},
+    mapTypeId: 'satellite'
   });
+
   var marker = new google.maps.Marker({
     position: { lat: 41.8827, lng: -87.6233},
+    label: "The Bean"
     map: map,
   });
+
   var infowindow = new google.maps.InfoWindow({
     content:"These locations consist of my school, Jones College Prep, the Cloud Gate, more famously known as The Bean, and the Willis Tower, which are all located in Chicago; I frequent these areas a lot."
   });
+
   infowindow.open(map, marker);
+
   var triangleCoords = [
     { lat: 41.8730, lng: -87.6279 },
     { lat: 41.8827, lng: -87.6233 },
     { lat: 41.8789, lng: -87.6359 },
     { lat: 41.8730, lng: -87.6279 },
   ];
-  // Construct the polygon.
+
   var Chicago = new google.maps.Polygon({
     paths: triangleCoords,
     strokeColor: "#FF0000",
@@ -27,6 +33,8 @@ function initMap() {
     fillOpacity: 0.3,
     map: map
   });
+
   Chicago.setMap(map);
 }
+
 window.initMap = initMap;
